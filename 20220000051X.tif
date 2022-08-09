@@ -1,0 +1,40 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<script type="text/javascript" language="javascript">
+    var errMsg = "The request to create a reliable session has been refused by the RM Destination. Server 'net.tcp://localhost:8003/ucc/UccAppServer' is too busy to process this request. Try again later. The channel could not be opened.";
+    if (errMsg != "") 
+    {
+        alert(errMsg);
+        window.open('','_parent','');
+        window.close();
+    }
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FLX5CQ1LN2"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-FLX5CQ1LN2');
+</script>
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>
+	Retrieve Image
+</title></head>
+<body>
+    <form name="form1" method="post" action="./RetrieveImage.aspx?sst=&amp;sov=6&amp;sot=Document+Number&amp;st=20220000051X&amp;fn=20220000051X&amp;rn=1&amp;ii=Y&amp;ft=1&amp;epn=" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="zv0ZIpof2Zv3pfFNvnUEBrkfK4Bo/QjGdPIPkY5kGsCKBHClm9/dt+zge95WX0yoEqUME0LP2oHpM/g/MZ+GkGeV5F4C5l25J/3BZ1aoN/A=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="79D3F220" />
+<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+    <div>
+    
+    </div>
+    </form>
+</body>
+</html>
